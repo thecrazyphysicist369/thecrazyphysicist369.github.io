@@ -17,8 +17,9 @@
     <a class="logo" href="#top">TCP<span>.</span>369</a>
     <nav class="nav">
       <a href="#work">Work</a>
-      <a href="#life">Life</a>
       <a href="#teach">Teach</a>
+      <a href="#books">Books</a>
+      <a href="#life">Life</a>
       <a href="#connect">Connect</a>
     </nav>
   </header>
@@ -91,6 +92,43 @@
       </ul>
     </section>
 
+    <section id="books" class="section books">
+      <div class="section-head">
+        <p class="eyebrow">Reading</p>
+        <h2>Books on the nightstand</h2>
+        <p class="section-lede">
+          Synced from Goodreads. Click the deck — or use the arrows — to flip through.
+        </p>
+      </div>
+
+      <div class="books-layout reveal" id="books-widget" hidden>
+        <div class="deck-stage">
+          <p class="deck-shelf" id="deck-shelf-label">Read</p>
+          <div class="deck" id="book-deck" tabindex="0" role="listbox" aria-label="Book deck"></div>
+          <div class="deck-controls">
+            <button type="button" class="deck-btn" id="deck-prev" aria-label="Previous book">←</button>
+            <p class="deck-counter"><span id="deck-index">1</span> / <span id="deck-total">0</span></p>
+            <button type="button" class="deck-btn" id="deck-next" aria-label="Next book">→</button>
+          </div>
+        </div>
+
+        <div class="book-detail">
+          <p class="book-status" id="book-status"></p>
+          <h3 id="book-title"></h3>
+          <p class="book-author" id="book-author"></p>
+          <p class="book-rating" id="book-rating" aria-label="Rating"></p>
+          <a class="book-link" id="book-link" href="#" target="_blank" rel="noopener">Open on Goodreads</a>
+        </div>
+      </div>
+
+      <p class="books-fallback" id="books-fallback">Loading bookshelf…</p>
+      <p class="books-meta">
+        <a href="https://www.goodreads.com/user/show/71176505-soujanya-ray" target="_blank" rel="noopener">Full profile on Goodreads</a>
+        <span class="dot" aria-hidden="true"></span>
+        <span id="books-updated"></span>
+      </p>
+    </section>
+
     <section id="life" class="section life">
       <div class="section-head">
         <p class="eyebrow">Off the die</p>
@@ -103,7 +141,7 @@
         <li class="reveal"><span>Music</span><em>Guitar &amp; piano</em></li>
         <li class="reveal"><span>Travel</span><em>New cities, slow mornings</em></li>
         <li class="reveal"><span>Bikes</span><em>Open roads</em></li>
-        <li class="reveal"><span>Books</span><em>Stacks that never shrink</em></li>
+        <li class="reveal"><a href="#books"><span>Books</span><em>Stacks that never shrink</em></a></li>
         <li class="reveal"><span>Photography</span><em>Light, people, places</em></li>
         <li class="reveal"><span>Football</span><em>The beautiful game</em></li>
         <li class="reveal coffee"><span>Black coffee</span><em>Every Bangalore morning</em></li>
