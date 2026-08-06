@@ -105,8 +105,8 @@ a {
 
 @media (max-width: 640px) {
   .nav {
-    gap: 0.9rem;
-    font-size: 0.65rem;
+    gap: 0.65rem;
+    font-size: 0.58rem;
   }
 }
 
@@ -683,6 +683,74 @@ a {
 
 .interest-grid a:hover span {
   color: var(--copper-bright);
+}
+
+/* Travel heatmap */
+
+.travel {
+  background:
+    radial-gradient(ellipse 55% 45% at 70% 40%, rgba(196, 122, 58, 0.1), transparent 60%),
+    linear-gradient(180deg, transparent, rgba(42, 31, 24, 0.4) 50%, transparent);
+}
+
+.travel-frame {
+  margin: 0;
+  max-width: 40rem;
+  position: relative;
+  padding: 0.65rem;
+  background:
+    linear-gradient(145deg, rgba(196, 122, 58, 0.28), rgba(42, 31, 24, 0.9) 40%, rgba(12, 10, 8, 0.95));
+  border: 1px solid rgba(196, 122, 58, 0.35);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(243, 235, 225, 0.04);
+}
+
+.travel-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0.65rem;
+  pointer-events: none;
+  z-index: 1;
+  box-shadow: inset 0 0 48px rgba(12, 10, 8, 0.35);
+}
+
+.travel-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #e8eef4;
+}
+
+.travel-frame figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.95rem 0.35rem 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.travel-frame figcaption .dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--copper);
+  opacity: 0.75;
+}
+
+@media (max-width: 640px) {
+  .travel-frame {
+    padding: 0.45rem;
+  }
+
+  .travel-frame::before {
+    inset: 0.45rem;
+  }
 }
 
 /* Interests */
