@@ -1,0 +1,53 @@
+{
+  "profile": "https://scholar.google.com/citations?user=mxc8IfcAAAAJ&hl=en",
+  "papers": [
+    {
+      "id": "1",
+      "title": "Thermal relaxation error on QKD: Effect and A Probable Bypass",
+      "venue": "arXiv",
+      "year": 2022,
+      "image": "papers/images/1.webp",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxc8IfcAAAAJ&citation_for_view=mxc8IfcAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "id": "2",
+      "title": "Amplitude damping error on QKD: Effect and a probable bypass",
+      "venue": "Modern Physics Letters A",
+      "year": 2023,
+      "image": "papers/images/2.webp",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxc8IfcAAAAJ&citation_for_view=mxc8IfcAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "id": "3",
+      "title": "Voting in watts-strogatz small-world network",
+      "venue": "Frontiers in Computing",
+      "year": 2020,
+      "image": "papers/images/3.webp",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxc8IfcAAAAJ&citation_for_view=mxc8IfcAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "id": "4",
+      "title": "Realization and implementation of optical reversible Universal Quadruple Logic Gate (ORUQLG)",
+      "venue": "IEEE ICCE",
+      "year": 2020,
+      "image": "papers/images/4.webp",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxc8IfcAAAAJ&citation_for_view=mxc8IfcAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "id": "5",
+      "title": "Centroid-based hierarchy preserving clustering algorithm using lighthouse scanning",
+      "venue": "Global AI Congress",
+      "year": 2020,
+      "image": "papers/images/5.webp",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxc8IfcAAAAJ&citation_for_view=mxc8IfcAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "id": "6",
+      "title": "Quantum Neural Networks: Bridging the Gap Between Quantum Computing and Artificial Intelligence in Industry",
+      "venue": "Quantum Machine Learning in Industrial Automation",
+      "year": 2025,
+      "image": "papers/images/6.webp",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxc8IfcAAAAJ&citation_for_view=mxc8IfcAAAAJ:zYLM7Y9cAGgC"
+    }
+  ]
+}

@@ -435,6 +435,18 @@ a {
   min-width: 1.75rem;
 }
 
+/* Papers deck — reuses book deck geometry */
+
+.papers {
+  background:
+    linear-gradient(180deg, rgba(42, 31, 24, 0.35), transparent 55%);
+}
+
+.deck-papers .deck-card {
+  border-radius: 4px 8px 8px 4px;
+  border-color: rgba(196, 122, 58, 0.22);
+}
+
 /* Books deck */
 
 .books {

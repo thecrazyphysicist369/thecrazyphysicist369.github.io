@@ -17,6 +17,7 @@
     <a class="logo" href="#top">TCP<span>.</span>369</a>
     <nav class="nav">
       <a href="#work">Work</a>
+      <a href="#papers">Papers</a>
       <a href="#teach">Teach</a>
       <a href="#books">Books</a>
       <a href="#life">Life</a>
@@ -74,6 +75,40 @@
           <p>Where the craft of chips became muscle memory — timing, power, and precision.</p>
         </article>
       </div>
+    </section>
+
+    <section id="papers" class="section papers">
+      <div class="section-head">
+        <p class="eyebrow">Research</p>
+        <h2>Selected papers</h2>
+        <p class="section-lede">
+          A short stack of publications. Click the deck to flip through — open any card on Google Scholar.
+        </p>
+      </div>
+
+      <div class="books-layout reveal" id="papers-widget" hidden>
+        <div class="deck-stage">
+          <p class="deck-shelf" id="paper-shelf-label">Paper</p>
+          <div class="deck deck-papers" id="paper-deck" tabindex="0" role="listbox" aria-label="Paper deck"></div>
+          <div class="deck-controls">
+            <button type="button" class="deck-btn" id="paper-prev" aria-label="Previous paper">←</button>
+            <p class="deck-counter"><span id="paper-index">1</span> / <span id="paper-total">0</span></p>
+            <button type="button" class="deck-btn" id="paper-next" aria-label="Next paper">→</button>
+          </div>
+        </div>
+
+        <div class="book-detail">
+          <p class="book-status" id="paper-status"></p>
+          <h3 id="paper-title"></h3>
+          <p class="book-author" id="paper-venue"></p>
+          <a class="book-link" id="paper-link" href="#" target="_blank" rel="noopener">View on Google Scholar</a>
+        </div>
+      </div>
+
+      <p class="books-fallback" id="papers-fallback">Loading papers…</p>
+      <p class="books-meta">
+        <a href="https://scholar.google.com/citations?user=mxc8IfcAAAAJ&hl=en" target="_blank" rel="noopener">Full profile on Google Scholar</a>
+      </p>
     </section>
 
     <section id="teach" class="section teach">
@@ -157,8 +192,9 @@
         </p>
       </div>
       <div class="link-row">
-        <!-- Swap these hrefs for your real profiles -->
+        <!-- Swap LinkedIn / email for your real profiles -->
         <a class="link-chip reveal" href="https://github.com/thecrazyphysicist369" target="_blank" rel="noopener">GitHub</a>
+        <a class="link-chip reveal" href="https://scholar.google.com/citations?user=mxc8IfcAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
         <a class="link-chip reveal" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="link-chip reveal" href="mailto:hello@example.com">Email</a>
       </div>
